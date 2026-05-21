@@ -1,0 +1,20 @@
+# Build outputs
+/build
+app/build
+.gradle
+
+# Local machine config — contains SDK path AND secrets (never commit)
+local.properties
+*.env
+*.keystore
+keystore.properties
+
+# IDE
+*.iml
+.idea/
+
+# macOS
+.DS_Store
+
+# Git
+.gitignore
